@@ -23,4 +23,4 @@ dir_to_pic = 'Images/'
 dir_to_txt = 'Dialogs/'
 path_to_log = 'Logs/log_{time}.log'
 lists_dir = 'Lists/'
-lists_files = ['admins.txt', 'commands_blacklist.txt', 'blacklist.txt', 'whitelist.txt']
+lists_files = ['admins.txt', 'commands_blacklist.txt', 'blacklist.txt', 'whitelist.txt', 'log.txt']
