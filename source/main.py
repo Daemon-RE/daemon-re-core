@@ -36,6 +36,7 @@ logger.info('Initialization...')
 
 connection = sql.connect("playerdata.db", check_same_thread=False)  # Database connection
 q = connection.cursor()
+q.execute('CREATE TABLE IF NOT EXISTS players (id INTEGER DEFAULT NULL, status INTEGER DEFAULT 0, kolvo INTEGER DEFAULT 0, picgen INTEGER DEFAULT 3, txtgen INTEGER DEFAULT 25, dst STRING DEFAULT 0, rnd INTEGER DEFAULT 3, learn INTEGER DEFAULT 0, arrange INTEGER DEFAULT 0)')
 
 logger.info('Loading files and directories...')
 if not os.path.exists('Images'):
