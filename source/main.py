@@ -4,7 +4,7 @@ from vkbottle.dispatch.rules.base import AttachmentTypeRule, ChatActionRule, Fro
 from bs4 import BeautifulSoup
 from requests import get
 from PIL import Image, ImageDraw, ImageFont
-import os, random, datetime, time, config, PIL, mc, requests, json, psutil, platform, dog, math, subprocess, cpuinfo, re
+import os, random, datetime, time, config, PIL, mc, requests, json, psutil, platform, dog, math, subprocess, cpuinfo, re, wikipedia
 from mc.builtin import validators
 from sys import version
 import sqlite3 as sql
