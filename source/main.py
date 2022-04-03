@@ -1,23 +1,21 @@
+import os, random, datetime, time, config, PIL, mc, requests, json, psutil, platform, dog, subprocess, cpuinfo, re, wikipedia, sqlite3 as sql
+from local import *
+from config import *
 from vkbottle.bot import Bot, Message
 from vkbottle import VideoUploader, Keyboard, KeyboardButtonColor, Text, OpenLink, VoiceMessageUploader, PhotoMessageUploader
 from vkbottle.dispatch.rules.base import AttachmentTypeRule, ChatActionRule, FromUserRule
 from bs4 import BeautifulSoup
+from loguru import *
 from requests import get
 from PIL import Image, ImageDraw, ImageFont
-import os, random, datetime, time, config, PIL, mc, requests, json, psutil, platform, dog, math, subprocess, cpuinfo, re, wikipedia
 from mc.builtin import validators
 from sys import version
-import sqlite3 as sql
 from gtts import gTTS
 from wand.image import Image
 from wand.display import display
 from wand.font import Font
 from simpledemotivators import *
-from local import *
-from config import * 
 from requests import get
-from loguru import *
-import random as randd
 
 bot=Bot(config.token)
 
