@@ -13,6 +13,6 @@
 2. Install packages<br> `pip3 install -r requirements.txt`<br>
 4. Write your token in [config.py](source/config.py)
 5. Write your id in [admins.txt](source/Lists/admins.txt) (after starting the bot)
-6. Go to the https://github.com/Daemon-RE/daemon-re-modules, and clone the modules package via `git clone https://github.com/Daemon-RE/daemon-re-module.git` and unzip it into the modules folder.
+6. Go to the https://github.com/Daemon-RE/daemon-re-modules, and clone the standrat modules package via `git clone https://github.com/Daemon-RE/daemon-re-module.git` and unzip it into the modules folder.
 7. Start bot via `python3 main.py`
 
