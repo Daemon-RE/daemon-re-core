@@ -1,4 +1,4 @@
-import os, random, datetime, time, config, PIL, mc, requests, json, psutil, platform, dog, subprocess, cpuinfo, re, wikipedia, sqlite3 as sql
+import os, random, datetime, time, config, PIL, mc, requests, json, psutil, platform, dog, subprocess, cpuinfo, re, wikipedia, math, sqlite3 as sql
 from local import *
 from config import *
 from vkbottle.bot import Bot, Message
