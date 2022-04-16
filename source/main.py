@@ -14,7 +14,7 @@ from gtts import gTTS
 from wand.image import Image
 from wand.display import display
 from wand.font import Font
-from simpledemotivators import *
+from orpl import *
 from requests import get
 
 bot=Bot(config.token)
