@@ -2,6 +2,9 @@
   <img src="assets/logo.png" alt="Daemon RE" style="max-width: 100%;height: 200px;">
 </h1>
 
+# Important information
+<b>Due to the limitations of github, our team decided to move our repositories to codebrg (a free alternative to github). Our repository: https://codeberg.org/Daemon-RE-Project/daemon-re</b>
+
 # Daemon RE
 <p align="center">Daemon RE is an open bot in VKontakte that works using Markov chains. He generates messages or demotivators based on your chat messages and has many other commands.</p>
 
